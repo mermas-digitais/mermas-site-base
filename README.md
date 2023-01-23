@@ -1,3 +1,3 @@
 # mermas
 
-<a href="https://adrianmouzinho.github.io/mermas/"> https://adrianmouzinho.github.io/mermas/</a>
+<a href="https://adrianmouzinho.github.io/mermas/">https://mermasdigitais.netlify.app/</a>
