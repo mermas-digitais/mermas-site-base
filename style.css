@@ -66,6 +66,7 @@ input, textarea{
   -webkit-font-smoothing: auto;
 }
 
+
 .button {
   background-color: var(--base-color);
   color: var(--text-color-light);
@@ -293,6 +294,19 @@ main {
 
 #home .home-info-event span:first-child {
   border-right: 1px solid var(--base-color-dark);
+}
+
+
+.buttonHome{
+  margin-left: 2.4rem;
+}
+
+.buttonHome button a{
+  color: var(--base-color-dark);
+  text-decoration: none;
+  font-size: 1rem;
+    font-weight: 700;
+  font-family: var(--body-font);
 }
 
 /* sobre */
@@ -535,7 +549,7 @@ main {
 #register .container {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  /* width: 100%; */
   max-width: 75rem;
 }
 
@@ -603,6 +617,7 @@ main {
   border: none;
   cursor: pointer;
   transition: 0.3s;
+  white-space: nowrap;
 }
 .container_2 .container_2_1 {
   display: flex;
@@ -713,60 +728,6 @@ main {
   color: var(--base-color-dark);
 }
 
-@media (max-width: 1200px) {
-  .container {
-    width: auto;
-    margin: 0 2rem;
-  }
-
-  .title {
-    font-size: 1.5rem;
-  }
-
-  #register .register_qrcode {
-    flex: 2;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: auto;
-    margin: 0 1.5rem;
-  }
-
-  #register .container {
-    flex-direction: column;
-    margin: 0 1rem;
-  }
-
-  #register .register_container {
-    margin: 0 0.5rem;
-  }
-
-  #register .register_qrcode {
-    max-width: 100%;
-    margin-top: -0.5rem;
-  }
-
-  #register .register_qrcode p {
-    font-size: 0.75rem;
-  }
-  #register .qrcode {
-    width: 8.75rem;
-  }
-  #register .container_1 {
-    padding: 2.5rem 2rem 1.25rem;
-  }
-  #register .container_1 p {
-    font-size: 1rem;
-  }
-  #register .container_2 {
-    padding: 2rem;
-  }
-  #register .container_2 h3 {
-    font-size: 1.25rem;
-  }
-}
 
 /* ====== Form ====== */
 #form {

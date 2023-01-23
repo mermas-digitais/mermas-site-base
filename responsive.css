@@ -273,22 +273,14 @@
     flex-direction: column;
     margin: 0 1rem;
   }
+  #register .container_2 button a, #register .container_2 h3{
+        font-size: 1rem;
+  }
 
   #register .register-container{
     margin: 0 0.5rem;
   }
   
-  #register .register-qrcode {
-    max-width: 100%;
-    margin-top: -0.5rem;
-  }
-
-  #register .register-qrcode p{
-    font-size: 0.75rem;
-  }
-  #register .qrcode {
-    width: 8.75rem;
-  }
   #register .container-1 {
     padding: 2.5rem 2rem 1.25rem;
   }
@@ -302,10 +294,7 @@
     font-size: 1.25rem;
   }
 
-  footer #help {
-    /* flex-direction: column; */
-    /* row-gap: 2rem; */
-  }
+
   footer #help #socials ul {
     justify-content: flex-start;
   }
@@ -361,5 +350,16 @@
 
   #activity .box{
     max-width: 100%;
+  }
+
+
+
+  #register .container_1 img{
+    display: none;
+  }
+
+  #register .container_2{
+    flex-direction: column;
+    gap: 1rem;
   }
 }
